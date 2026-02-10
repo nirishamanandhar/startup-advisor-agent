@@ -17,7 +17,7 @@ class LLMService:
                 temperature=0.7,
                 seed=42,
                 stream=stream,
-                max_tokens=200,
+                max_tokens=300,
             )
         except Exception as e:
             print(f"connection error: {e}")
